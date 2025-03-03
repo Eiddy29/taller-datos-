@@ -11,13 +11,13 @@ public class EstructurasControl {
         int edad = scanner.nextInt();
 
         if (edad >= 18) {
-            System.out.println("✅ Eres mayor de edad.");
+            System.out.println(" Eres mayor de edad.");
         } else {
-            System.out.println("❌ Eres menor de edad.");
+            System.out.println(" Eres menor de edad.");
         }
 
         // 🔹 2. ESTRUCTURA SWITCH-CASE
-        System.out.print("\nIngrese un número del 1 al 3: ");
+        System.out.print("Ingrese un número del 1 al 3: ");
         int opcion = scanner.nextInt();
 
         switch (opcion) {
@@ -28,13 +28,13 @@ public class EstructurasControl {
         }
 
         // 🔹 3. BUCLE FOR
-        System.out.println("\n🔄 Contando del 1 al 5 con FOR:");
+        System.out.println("Contando del 1 al 5 con FOR:");
         for (int i = 1; i <= 5; i++) {
             System.out.println("Número: " + i);
         }
 
         // 🔹 4. BUCLE WHILE
-        System.out.println("\n🔄 Contando del 5 al 1 con WHILE:");
+        System.out.println(" Contando del 5 al 1 con WHILE:");
         int j = 5;
         while (j >= 1) {
             System.out.println("Número: " + j);
@@ -42,7 +42,7 @@ public class EstructurasControl {
         }
 
         // 🔹 5. BUCLE DO-WHILE
-        System.out.println("\n🔄 Contando del 1 al 3 con DO-WHILE:");
+        System.out.println("Contando del 1 al 3 con DO-WHILE:");
         int k = 1;
         do {
             System.out.println("Número: " + k);
